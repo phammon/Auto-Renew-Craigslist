@@ -30,3 +30,7 @@ driver.get('link here to update')
 
 button = driver.find_element_by_css_selector('form.manage.renew')
 button.click()
+
+#cronjob to automaticall run your script every few days
+#PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+#30 10 * * 1,4,7 python /Path-to-script/craigslist.py
